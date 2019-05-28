@@ -1,7 +1,7 @@
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt update
 sudo apt upgrade
-sudo apt install -y telegram-desktop slack git chromium-browser tmux software-properties-common neovim python-dev python-pip python3-dev python3-pip rbenv autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
+sudo apt install -y telegram-desktop slack git chromium-browser tmux software-properties-common neovim python-dev python-pip python3-dev python3-pip rbenv autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev htop
 sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
 sudo update-alternatives --config vi
 sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
