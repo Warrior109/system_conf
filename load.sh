@@ -19,4 +19,5 @@ scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.bashrc ~/.
 scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.inputrc ~/.
 scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/nvim ~/.config/.
 scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.tmux.conf ~/.
-sudo scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/hosts /etc/.
+scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/hosts hosts_dump
+sudo mv hosts_dump /etc/hosts
