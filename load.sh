@@ -21,3 +21,7 @@ scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/nvim ~/.config/
 scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.tmux.conf ~/.
 scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/hosts hosts_dump
 sudo mv hosts_dump /etc/hosts
+scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/current_language_layout.sh ~/.
+scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/completion ~/.
+scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/completion-ruby ~/.
+scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.tmux ~/.
