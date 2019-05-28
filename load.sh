@@ -15,8 +15,8 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 scp ubuntu@52.57.123.204:~/desktop_computer_config/dconf-backup.conf ~/.
 dconf load / < ~/dconf-backup.conf
 scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/config ~/.ssh/.
-scp work_server_without_forwarding:/home/ubuntu/desktop_computer_config/.bashrc ~/.
-scp work_server_without_forwarding:/home/ubuntu/desktop_computer_config/.inputrc ~/.
-scp -r work_server_without_forwarding:/home/ubuntu/desktop_computer_config/nvim ~/.config/.
-scp work_server_without_forwarding:/home/ubuntu/desktop_computer_config/.tmux.conf ~/.
-sudo scp work_server_without_forwarding:/home/ubuntu/desktop_computer_config/hosts /etc/.
+scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.bashrc ~/.
+scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.inputrc ~/.
+scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/nvim ~/.config/.
+scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.tmux.conf ~/.
+sudo scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/hosts /etc/.
