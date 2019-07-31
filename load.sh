@@ -25,3 +25,9 @@ scp ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/current_language_l
 scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/completion ~/.
 scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/completion-ruby ~/.
 scp -r ubuntu@52.57.123.204:/home/ubuntu/desktop_computer_config/.tmux ~/.
+
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+pip install virtualenv
+sudo apt install python3-venv xsel
